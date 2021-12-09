@@ -1,0 +1,70 @@
+/* Animations */
+
+#logo:hover {
+   transform: scale(1.25);
+   transition: 0.15s;
+}
+
+/* Day Mode */
+
+body {
+   background-color: #3434a5;
+}
+
+.card {
+   background-color: #b3b3b3;
+   padding: 0.5em;
+}
+
+.card:hover {
+   background-color:#880081; 
+   color: white;
+}
+
+nav {
+   background-color: #d4d4d4;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.text {
+   color: #2465ce;
+}
+
+#contentContainer {
+   padding: 0.5em;
+   background-color: #9c4798 !important;
+   color: #e4e4e4 !important;
+   padding-bottom: 6em;
+}
+
+#indexPadding {
+   padding-bottom: 6em;
+}
+
+footer {
+   background-color: #d4d4d4;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+/* Night Mode */
+
+body.dark {
+   background-color: #494949;
+}
+
+nav.dark {
+   background-color:#353535;
+}
+
+footer.dark {
+   background-color:#353535;
+}
+
+#contentContainer.dark {
+   padding: 0.5em;
+   background-color: #70316d !important;
+   color: #e4e4e4 !important;
+   padding-bottom: 6em;
+}
